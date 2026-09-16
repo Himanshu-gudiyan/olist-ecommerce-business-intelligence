@@ -1,0 +1,16 @@
+category,metric,value,observation,business_meaning
+Overall Performance,Delivered Orders,96478,"96,478 orders were delivered.",This represents the completed-order volume used for the primary revenue analysis.
+Overall Performance,Total Revenue,"R$ 15,419,773.75","Delivered-order revenue reached R$ 15,419,773.75.",This is the primary revenue KPI for the project.
+Overall Performance,Average Order Value,R$ 159.83,The average delivered order generated R$ 159.83.,AOV can be used as a baseline for evaluating basket-size and revenue-growth strategies.
+Customer,Unique Customers,93358,"93,358 unique customers are represented in delivered-order analytics.",This is the customer base used for delivered-order customer analysis.
+Customer,Repeat Customers,2801,"2,801 customers placed more than one delivered order.",Repeat customers represent the currently observed returning-customer segment.
+Customer,Repeat Customer Rate,3.00%,The repeat customer rate is 3.00%.,Customer retention is an important opportunity area because repeat purchasing is relatively limited in the observed data.
+Delivery,Average Delivery Time,12.56 days,Average delivery time was 12.56 days.,This provides the baseline for evaluating logistics performance.
+Delivery,Estimated Delivery Time,23.74 days,The average estimated delivery time was 23.74 days.,Comparing actual and estimated delivery helps evaluate delivery reliability.
+Delivery,Average Delivery Difference,-11.18 days,Average delivery difference was -11.18 days.,A negative value indicates that delivered orders were completed earlier than the estimated delivery date on average.
+Delivery,Delayed Order Rate,8.11%,"7,826 delivered orders were classified as delayed, representing 8.11%.",Delayed orders identify the portion of completed orders that exceeded the estimated delivery date.
+Monthly Performance,Highest Revenue Month,2017-11,"2017-11 generated R$ 1,153,364.20 revenue from 7,289 orders.",This is the strongest monthly revenue period in the delivered-order dataset.
+Monthly Performance,Lowest Revenue Month,2016-12,2016-12 generated R$ 19.62 revenue from 1 orders.,This period had the lowest observed monthly delivered-order revenue.
+Product Category,Top Revenue Category,health_beauty,"health_beauty generated R$ 1,412,089.53 revenue across 8,647 orders.",This category is the leading revenue contributor in the category-level analysis.
+Geography,Top Customer State,SP,"SP generated R$ 5,769,703.15 revenue from 40,501 delivered orders.",This state is the largest revenue contributor in the customer-state analysis.
+Payment,Top Payment Method by Value,credit_card,"credit_card accounted for R$ 12,095,049.25 across 72,785 delivered orders.",This is the leading payment method by payment value in the delivered-order dataset.

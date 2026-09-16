@@ -1,0 +1,2 @@
+delivered_orders,total_revenue,average_order_value,unique_customers,repeat_customers,repeat_customer_rate,average_delivery_days,average_estimated_delivery_days,average_delivery_delay_days,delayed_orders,delayed_order_rate
+96478,15419773.75,159.83,93358,2801,3.0,12.56,23.74,-11.18,7826,8.11

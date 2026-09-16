@@ -1,0 +1,446 @@
+{
+  "descriptive": {
+    "total_orders": 99441,
+    "delivered_orders": 96478,
+    "canceled_orders": 625,
+    "total_unique_customers": 96096,
+    "repeat_buyers": 2997,
+    "repeat_buyer_rate_pct": 3.12,
+    "total_products_in_analytics": 32216,
+    "total_active_sellers": 2970,
+    "date_min": "2016-09-04",
+    "date_max": "2018-10-17",
+    "date_span_days": 772,
+    "payment_type_counts": {
+      "credit_card": "76795",
+      "boleto": "19784",
+      "voucher": "5775",
+      "debit_card": "1529",
+      "unknown": "3"
+    },
+    "payment_type_avg_value": {
+      "credit_card": 163.32,
+      "boleto": 145.03,
+      "voucher": 65.7,
+      "debit_card": 142.57,
+      "unknown": 0.0
+    },
+    "review_score_distribution": {
+      "1": "11363",
+      "2": "3131",
+      "3": "8133",
+      "4": "19038",
+      "5": "57008"
+    },
+    "avg_review_score": 4.0864
+  },
+  "kpis": {
+    "total_orders": 99441,
+    "delivered_orders": 96478,
+    "total_revenue_brl": 15419773.75,
+    "product_revenue_brl": 13221498.11,
+    "freight_revenue_brl": 2198275.64,
+    "freight_pct_of_revenue": 14.26,
+    "avg_order_value": 159.83,
+    "avg_items_per_order": 1.1422,
+    "avg_freight_per_item": 19.95,
+    "cancellation_rate_pct": 0.63,
+    "repeat_buyer_rate_pct": 3.12,
+    "avg_review_score": 4.0864,
+    "avg_delivery_days": 12.56,
+    "on_time_delivery_rate": 91.89,
+    "late_delivery_rate": 8.11,
+    "avg_delay_when_late_days": 9.55,
+    "total_unique_customers": 96096,
+    "active_sellers": 2970
+  },
+  "monthly": {
+    "peak_revenue_month": "2017-11",
+    "peak_revenue_value": 1153364.2,
+    "peak_orders_month": "2017-11",
+    "peak_orders_value": 7289,
+    "avg_monthly_revenue": 700892.29,
+    "avg_monthly_orders": 4385.32
+  },
+  "top_categories_revenue": {
+    "health_beauty": 1412089.53,
+    "watches_gifts": 1264333.12,
+    "bed_bath_table": 1225209.26,
+    "sports_leisure": 1118256.91,
+    "computers_accessories": 1032723.77,
+    "furniture_decor": 880329.92,
+    "housewares": 758392.25,
+    "cool_stuff": 691680.89,
+    "auto": 669454.75,
+    "garden_tools": 567145.68,
+    "toys": 547061.06,
+    "baby": 466727.65,
+    "perfumery": 443171.63,
+    "telephony": 379202.62,
+    "office_furniture": 335211.36
+  },
+  "top_categories_volume": {
+    "bed_bath_table": 10953,
+    "health_beauty": 9465,
+    "sports_leisure": 8431,
+    "furniture_decor": 8160,
+    "computers_accessories": 7644,
+    "housewares": 6795,
+    "watches_gifts": 5859,
+    "telephony": 4430,
+    "garden_tools": 4268,
+    "auto": 4140,
+    "toys": 4030,
+    "cool_stuff": 3718,
+    "perfumery": 3340,
+    "baby": 2982,
+    "electronics": 2729
+  },
+  "sellers": {
+    "total_active_sellers": 2970,
+    "top_seller_revenue": 247007.06,
+    "median_seller_revenue": 1038.62,
+    "top_10_sellers_pct_of_total_revenue": 12.93,
+    "states_with_sellers": 22,
+    "revenue_by_seller_state": {
+      "SP": 9957056.91,
+      "PR": 1424161.25,
+      "MG": 1184427.54,
+      "RJ": 911918.67,
+      "SC": 717739.37,
+      "RS": 429749.09,
+      "BA": 297146.93,
+      "DF": 112892.78,
+      "PE": 103486.1,
+      "GO": 77089.48,
+      "ES": 58853.49,
+      "MA": 48169.5,
+      "CE": 23724.05,
+      "MT": 21623.67,
+      "PB": 17844.43,
+      "RN": 11296.71,
+      "MS": 9750.65,
+      "RO": 5474.98,
+      "PI": 2791.55,
+      "SE": 1924.69,
+      "PA": 1393.11,
+      "AM": 1258.8
+    }
+  },
+  "customers": {
+    "top_states_by_customers": {
+      "SP": 40296,
+      "RJ": 12379,
+      "MG": 11254,
+      "RS": 5276,
+      "PR": 4881,
+      "SC": 3529,
+      "BA": 3277,
+      "DF": 2073,
+      "ES": 1964,
+      "GO": 1951,
+      "PE": 1604,
+      "CE": 1312,
+      "PA": 949,
+      "MT": 875,
+      "MA": 725
+    },
+    "top_states_by_revenue": {
+      "SP": 5769703.15,
+      "RJ": 2055401.57,
+      "MG": 1818891.67,
+      "RS": 861472.79,
+      "PR": 781708.8,
+      "SC": 595127.78,
+      "BA": 591137.81,
+      "DF": 346123.35,
+      "ES": 317657.93,
+      "GO": 334212.35,
+      "PE": 308972.05,
+      "CE": 266436.77,
+      "PA": 212023.57,
+      "MT": 181224.42,
+      "MA": 147803.55
+    },
+    "order_frequency": {
+      "1": 93099,
+      "2": 2745,
+      "3": 203,
+      "4": 30,
+      "5": 8,
+      "6": 6,
+      "7": 3,
+      "9": 1,
+      "17": 1
+    },
+    "segments": [
+      {
+        "segment": "Single-Purchase (<R$500)",
+        "n_customers": 89008,
+        "avg_spend": 126.43122146323927,
+        "avg_orders": 1.0
+      },
+      {
+        "segment": "High-Value (1 order, R$500+)",
+        "n_customers": 4091,
+        "avg_spend": 931.669335125886,
+        "avg_orders": 1.0
+      },
+      {
+        "segment": "Returning (2 orders)",
+        "n_customers": 2745,
+        "avg_spend": 294.84713661202187,
+        "avg_orders": 2.0
+      },
+      {
+        "segment": "High-Frequency (3+ orders)",
+        "n_customers": 252,
+        "avg_spend": 534.394126984127,
+        "avg_orders": 3.380952380952381
+      }
+    ]
+  },
+  "logistics": {
+    "avg_delivery_days": 12.56,
+    "median_delivery_days": 10.22,
+    "p90_delivery_days": 23.1,
+    "late_rate_pct": 8.11,
+    "avg_delay_when_late": 9.55,
+    "avg_freight_per_item": 19.95,
+    "median_freight": 16.26,
+    "avg_delivery_by_state": {
+      "SP": 8.76,
+      "PR": 11.99,
+      "MG": 12.01,
+      "DF": 12.97,
+      "SC": 14.95,
+      "RS": 15.3,
+      "RJ": 15.31,
+      "GO": 15.61,
+      "MS": 15.62,
+      "ES": 15.79,
+      "TO": 17.66,
+      "MT": 18.06,
+      "PE": 18.45,
+      "RN": 19.28,
+      "BA": 19.34,
+      "RO": 19.37,
+      "PI": 19.46,
+      "PB": 20.43,
+      "CE": 21.27,
+      "SE": 21.52,
+      "MA": 21.57,
+      "PA": 23.77,
+      "AL": 24.54
+    },
+    "top_freight_pct_categories": {
+      "home_comfort_2": 106.28,
+      "dvds_blu_ray": 83.03,
+      "electronics": 62.7,
+      "flowers": 54.86,
+      "telephony": 43.29,
+      "furniture_mattress_and_upholstery": 43.16,
+      "food_drink": 41.47,
+      "Portable Kitchen & Food Preparers": 41.36,
+      "christmas_supplies": 38.25,
+      "costruction_tools_garden": 37.32,
+      "diapers_and_hygiene": 37.05,
+      "cds_dvds_musicals": 35.8
+    },
+    "freight_price_correlation": 0.4127
+  },
+  "satisfaction": {
+    "avg_review_score": 4.1559,
+    "lowest_score_categories": {
+      "office_furniture": 3.516,
+      "fixed_telephony": 3.758,
+      "audio": 3.838,
+      "home_confort": 3.852,
+      "bed_bath_table": 3.924
+    },
+    "highest_score_categories": {
+      "fashion_shoes": 4.281,
+      "luggage_accessories": 4.352,
+      "food_drink": 4.364,
+      "books_technical": 4.389,
+      "books_general_interest": 4.512
+    },
+    "review_by_delay_bucket": {
+      "Early >14d": 4.323,
+      "Early 8-14d": 4.311,
+      "Early 3-7d": 4.226,
+      "Early 0-3d": 4.133,
+      "Late 0-3d": 3.766,
+      "Late 3-7d": 2.316,
+      "Late 7-14d": 1.743,
+      "Late >14d": 1.709
+    },
+    "avg_score_ontime": 4.2941,
+    "avg_score_late": 2.5651,
+    "score_delta_late_vs_ontime": -1.729,
+    "review_by_freight_bucket": {
+      "R$0-10": 4.166,
+      "R$10-20": 4.1,
+      "R$20-30": 4.028,
+      "R$30-50": 3.958,
+      "R$50+": 3.96
+    }
+  },
+  "correlations": {
+    "delivery_days": {
+      "delivery_days": 1.0,
+      "delivery_delay_days": 0.6013330710363063,
+      "total_order_revenue": 0.06943804125095741,
+      "item_count": -0.019612079752011503,
+      "freight_revenue": 0.16742483361644303,
+      "review_score": -0.3340425137136963
+    },
+    "delivery_delay_days": {
+      "delivery_days": 0.6013330710363063,
+      "delivery_delay_days": 1.0,
+      "total_order_revenue": -0.019193525045706733,
+      "item_count": -0.03206585732637612,
+      "freight_revenue": -0.0507048833672919,
+      "review_score": -0.26702663854287106
+    },
+    "total_order_revenue": {
+      "delivery_days": 0.06943804125095741,
+      "delivery_delay_days": -0.019193525045706733,
+      "total_order_revenue": 1.0,
+      "item_count": 0.18950618275533412,
+      "freight_revenue": 0.49037752080052677,
+      "review_score": -0.04175333572943371
+    },
+    "item_count": {
+      "delivery_days": -0.019612079752011503,
+      "delivery_delay_days": -0.03206585732637612,
+      "total_order_revenue": 0.18950618275533412,
+      "item_count": 1.0,
+      "freight_revenue": 0.43770556565769453,
+      "review_score": -0.12311091016196458
+    },
+    "freight_revenue": {
+      "delivery_days": 0.16742483361644303,
+      "delivery_delay_days": -0.0507048833672919,
+      "total_order_revenue": 0.49037752080052677,
+      "item_count": 0.43770556565769453,
+      "freight_revenue": 1.0,
+      "review_score": -0.08964174214077741
+    },
+    "review_score": {
+      "delivery_days": -0.3340425137136963,
+      "delivery_delay_days": -0.26702663854287106,
+      "total_order_revenue": -0.04175333572943371,
+      "item_count": -0.12311091016196458,
+      "freight_revenue": -0.08964174214077741,
+      "review_score": 1.0
+    },
+    "review_by_delivery_bin": {
+      "0-5d": 4.447,
+      "5-10d": 4.362,
+      "10-15d": 4.267,
+      "15-20d": 4.128,
+      "20-30d": 3.685,
+      "30-60d": 2.261,
+      "60d+": 2.141
+    }
+  },
+  "insights": [
+    {
+      "id": 1,
+      "title": "S\u00e3o Paulo dominates, but the long tail of states is underserved",
+      "finding": "SP accounts for R$5.77M revenue and the top 3 states (SP, RJ, MG) together represent ~60% of all delivered revenue.",
+      "metric": "SP: R$5.77M | RJ: R$2.05M | MG: R$1.82M out of R$15.4M total",
+      "why_it_matters": "Heavy geographic concentration means high business risk and untapped market opportunity in other states.",
+      "action": "Run targeted marketing campaigns in RS, PR, BA, SC \u2014 these states have significant populations but lower revenue share. Analyse whether freight cost barriers are suppressing demand in these regions."
+    },
+    {
+      "id": 2,
+      "title": "Health & Beauty is the #1 revenue category \u2014 not Electronics",
+      "finding": "Health & Beauty generates R$1.41M (the most of any category), followed by Watches & Gifts (R$1.26M) and Bed/Bath/Table (R$1.23M). Electronics/computers rank 5th.",
+      "metric": "Top 5: Health_beauty, Watches_gifts, Bed_bath_table, Sports_leisure, Computers_accessories",
+      "why_it_matters": "The category mix suggests Olist's Brazilian customer base prioritises personal care and lifestyle over technology.",
+      "action": "Prioritise seller acquisition in Health & Beauty and Watches/Gifts. Invest in category-specific promotions. Review pricing and assortment depth in these top categories."
+    },
+    {
+      "id": 3,
+      "title": "Credit card dominates payments (74%) \u2014 installments are key",
+      "finding": "73.9% of all payment transactions use credit card. Brazil's boleto banc\u00e1rio represents 19%, while debit card and vouchers are minor. Average credit card AOV is significantly higher than boleto.",
+      "metric": "credit_card: 76,795 (73.9%) | boleto: 19,784 (19.0%) | voucher: 5,775 (5.6%)",
+      "why_it_matters": "Installment-friendly payments directly drive higher order values in Brazil's e-commerce market.",
+      "action": "Emphasise '12x sem juros' (12 interest-free installments) messaging. Ensure the checkout experience prioritises credit card with clear installment options. Consider boleto-specific promotions for price-sensitive customers."
+    },
+    {
+      "id": 4,
+      "title": "8.1% of delivered orders arrive late \u2014 but lateness severely hurts reviews",
+      "finding": "Late delivery rate is 8.1%. On-time orders average 4.29 stars vs late orders 2.57 stars \u2014 a 1.73-point drop.",
+      "metric": "On-time avg: 4.29 | Late avg: 2.57 | Delta: -1.73",
+      "why_it_matters": "Lower review scores reduce seller ranking and customer retention. Late delivery is the single most actionable driver of review score.",
+      "action": "Implement delivery alerts to customers and sellers when carrier handoff is delayed. Negotiate SLAs with carriers for high-risk routes. Flag orders at risk of lateness proactively using estimated vs actual carrier progress."
+    },
+    {
+      "id": 5,
+      "title": "Strong positive sales growth from Q4 2017 to Q1 2018 \u2014 Black Friday peak visible",
+      "finding": "Peak revenue month was 2017-11 with R$1153K. Order volume showed consistent growth from Oct 2016 to Aug 2018.",
+      "metric": "Peak month: 2017-11 | Monthly avg: R$701K",
+      "why_it_matters": "Seasonal spikes require advance inventory planning, seller capacity and logistics scaling.",
+      "action": "Build a seasonal inventory and fulfilment plan. Incentivise sellers to pre-stock top categories 4-6 weeks ahead of Black Friday/Cyber Monday. Use historical monthly trends to forecast 2019 capacity."
+    },
+    {
+      "id": 6,
+      "title": "Seller market is highly concentrated \u2014 top 10 sellers drive disproportionate revenue",
+      "finding": "Top 10 sellers represent 12.9% of total revenue. Median seller revenue is only R$1039.",
+      "metric": "Top 10 revenue share: 12.9% | Median seller: R$1039",
+      "why_it_matters": "High concentration creates platform risk if top sellers leave. Many small sellers are underperforming and need support to grow.",
+      "action": "Create a VIP seller retention programme for top earners. Build a seller onboarding and growth programme with performance coaching for the long tail. Diversify revenue base to reduce dependency on a few sellers."
+    },
+    {
+      "id": 7,
+      "title": "Average delivery time is 12.6 days \u2014 the North and Northeast receive orders significantly slower",
+      "finding": "National avg delivery is 12.6 days. Northern/Northeastern states (RR, AP, AM, PA) receive orders in 20-28 days vs 8-10 days in the South.",
+      "metric": "Avg: 12.6d | Median: 10.2d | P90: 23.1d",
+      "why_it_matters": "Long delivery times in the North/NE reduce conversion rates and satisfaction in those regions, limiting market expansion.",
+      "action": "Partner with regional 3PL carriers in the North. Consider establishing regional fulfilment hubs or strategic warehouses in key northern cities (Manaus, Bel\u00e9m, Fortaleza)."
+    },
+    {
+      "id": 8,
+      "title": "96.9% of customers buy only once \u2014 repeat purchase rate is very low (3.1%)",
+      "finding": "Only 2,979 of 96,096 unique customers placed a second order. Repeat buyer rate = 3.12%.",
+      "metric": "Repeat buyer rate: 3.12% | One-time buyers: ~93,099 (96.9%)",
+      "why_it_matters": "Customer acquisition costs are high. Improving repeat purchase rate from 3% to even 6% could double customer lifetime value without increasing acquisition spend.",
+      "action": "Implement post-purchase email flows with personalised product recommendations. Launch a loyalty programme or repeat-purchase discount. Analyse product categories with highest repeat rates as natural entry points for re-engagement."
+    },
+    {
+      "id": 9,
+      "title": "Freight cost is high relative to item price for heavy/bulky categories",
+      "finding": "Furniture, Office Furniture, and similar bulky categories show median freight at 30-50%+ of item price. This likely suppresses conversion in those categories.",
+      "metric": "Avg freight per item: R$19.95 | Freight as % of revenue: 14.3%",
+      "why_it_matters": "High freight-to-price ratios deter purchases and reduce competitiveness against physical stores or larger e-commerce platforms with subsidised shipping.",
+      "action": "Negotiate volume freight discounts for heavy categories. Consider seller-paid freight incentives for bulky goods. Display 'Free shipping on orders above R$X' threshold messaging to increase AOV while covering freight."
+    },
+    {
+      "id": 10,
+      "title": "SP sellers generate most of the supply \u2014 seller geographic diversity is limited",
+      "finding": "SP-based sellers generate the largest portion of seller revenue. Only 22 states have registered sellers vs 27 states with customers.",
+      "metric": "Seller states: 22 | Customer states: 27",
+      "why_it_matters": "Geographic mismatch between sellers (concentrated in SP) and customers (nationwide) inflates delivery times and freight costs.",
+      "action": "Run targeted seller recruitment campaigns in RS, MG, RJ, PR. Highlight reduced delivery times for regional sellers as a selling point. Offer reduced platform fees or marketing credits for new sellers in underserved regions."
+    },
+    {
+      "id": 11,
+      "title": "Reviews with delivery >20 days show sharp score declines",
+      "finding": "Orders delivered in 0-10 days average 4.3+ stars. Orders taking 20-30 days drop to ~3.9 stars. Orders taking 30-60 days drop further to ~3.5 stars.",
+      "metric": "Review by delivery time: 0-5d=4.4+, 5-10d=4.2+, 20-30d=3.9, 30-60d=3.5",
+      "why_it_matters": "Every 10-day increase in delivery time costs approximately 0.3-0.4 review stars, a measurable and actionable metric.",
+      "action": "Set internal SLA targets: aim for 95% of orders delivered within 15 days. Build seller performance dashboards tracking shipping time. Flag slow-shipping sellers for carrier review."
+    },
+    {
+      "id": 12,
+      "title": "Office Supplies and certain niche categories show low review scores \u2014 investigate root cause",
+      "finding": "Categories like 'security_and_services' and niche utility categories consistently score below 3.8 stars.",
+      "metric": "Lowest-scoring categories from satisfaction analysis (see chart 18)",
+      "why_it_matters": "Consistently low scores in specific categories signal product quality, description accuracy, or seller fulfilment issues that damage platform reputation.",
+      "action": "Audit listings in low-scoring categories for misleading descriptions. Implement category-specific quality standards. Consider requiring product photos/videos for categories with chronic low scores."
+    }
+  ]
+}
