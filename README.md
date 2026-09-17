@@ -1,4 +1,4 @@
-﻿# Olist E-Commerce Business Intelligence & Analytics
+# Olist E-Commerce Business Intelligence & Analytics
 
 > An end-to-end Business Intelligence and Data Analytics project built using real-world Brazilian e-commerce data from Olist.
 
@@ -255,39 +255,20 @@ products, sellers, operations, reviews, and geography.
 ---
 ## Project Workflow
 
-The project follows an end-to-end Business Intelligence workflow from
-raw Olist data to an interactive analytical dashboard.
+The project follows an end-to-end Business Intelligence workflow, transforming the real Olist dataset into validated analytics, automated KPIs, and an interactive Streamlit dashboard.
 
-```text
-Real Olist Dataset
-        |
-        v
-Phase 1 - Dataset Audit
-        |
-        v
-Phase 2 - Data Cleaning and Preparation
-        |
-        v
-Phase 3 - Exploratory Data Analysis
-        |
-        v
-Phase 4 - Streamlit Dashboard
-        |
-        v
-Phase 5 - Advanced Analytics
-        |
-        v
-Phase 6 - SQL Analytics and Database
-        |
-        v
-Phase 7 - Automated KPI Reporting
-        |
-        v
-Phase 8 - Dashboard Integration
-        |
-        v
-Business Intelligence Dashboard
-```
+| Phase | Workflow | Key Output |
+|---|---|---|
+| **Phase 1** | Dataset Audit | Data structure, schema, quality assessment |
+| **Phase 2** | Data Cleaning & Preparation | Cleaned and validated datasets |
+| **Phase 3** | Exploratory Data Analysis | Trends, patterns, and business insights |
+| **Phase 4** | Streamlit Dashboard | Interactive business dashboard |
+| **Phase 5** | Advanced Analytics | RFM, cohort, seller, and growth analytics |
+| **Phase 6** | SQL Analytics & Database | SQLite analytical database and SQL queries |
+| **Phase 7** | Automated KPI Reporting | KPI engine, performance reports, and insights |
+| **Phase 8** | Dashboard Integration | Integrated analytics and dashboard experience |
+
+**Final Output:** A complete Business Intelligence solution for analyzing Olist e-commerce operations, customers, products, sellers, orders, payments, reviews, and delivery performance.
 
 ## Exploratory Data Analysis
 
@@ -412,32 +393,23 @@ The database contains:
 
 ### Important Tables
 
-```text
-Source / Clean Tables
-    |
-    +-- customers
-    +-- orders
-    +-- order_items
-    +-- order_payments
-    +-- order_reviews
-    +-- products
-    +-- sellers
-    +-- geolocation
-    +-- category_translation
+The analytics database is organized into three logical layers:
 
-Dimension Tables
-    |
-    +-- dim_customer
-    +-- dim_product
-    +-- dim_seller
-    +-- dim_date
-    +-- dim_geography
+| Layer | Tables |
+|---|---|
+| **Source / Clean** | `customers`, `orders`, `order_items`, `order_payments`, `order_reviews`, `products`, `sellers`, `geolocation`, `category_translation` |
+| **Dimensions** | `dim_customer`, `dim_product`, `dim_seller`, `dim_date`, `dim_geography` |
+| **Facts** | `fact_orders`, `fact_sales` |
 
-Fact Tables
-    |
-    +-- fact_orders
-    +-- fact_sales
-```
+**Key analytical tables**
+
+- `fact_orders` — Order-level metrics such as revenue, payment, reviews, and delivery.
+- `fact_sales` — Order-item level metrics for product, category, and seller analysis.
+- `dim_customer` — Customer attributes and customer-level analytics.
+- `dim_product` — Product and translated category information.
+- `dim_seller` — Seller attributes and performance analysis.
+- `dim_date` — Date-based analysis for monthly and quarterly trends.
+- `dim_geography` — Customer and seller geographic analysis.
 
 
 ## Automated KPI Reporting
@@ -460,12 +432,9 @@ The reporting pipeline generates:
 
 The KPI generation is handled through:
 
-```text
-src/phase7_kpi_engine.py
-```
+- **KPI Engine:** `src/phase7_kpi_engine.py` — Calculates and generates automated business KPIs.
 
 ## Dashboard Screenshots
-
 The following screenshots show the actual Streamlit dashboard and its
 analytical pages.
 
@@ -566,10 +535,69 @@ database and validation workflow.
 
 ### Revenue Reconciliation
 
-```text
-fact_orders revenue = R$15,419,773.75
-fact_sales revenue  = R$15,419,773.75
-difference           = R$0.00
+Revenue was independently calculated at both order-level and order-item-level grains to verify consistency across the analytical model.
 
+| Metric | Value |
+|---|---:|
+| **fact_orders Revenue** | R$15,419,773.75 |
+| **fact_sales Revenue** | R$15,419,773.75 |
+| **Reconciliation Difference** | **R$0.00** |
 
+**Validation Result:** Revenue reconciles exactly between `fact_orders` and `fact_sales`.
+## Installation
 
+1. Download the original **Olist Brazilian E-Commerce Dataset** and place all CSV files inside `data/raw/`.
+2. Clone the repository and install dependencies:
+
+`git clone https://github.com/Himanshu-gudiyan/olist-ecommerce-business-intelligence.git`  
+`cd olist-ecommerce-business-intelligence`  
+`python -m venv .venv`  
+`.venv\Scripts\Activate.ps1`  
+`pip install -r requirements.txt`
+
+## How to Run
+
+Launch the Streamlit dashboard:
+
+`streamlit run app.py`
+
+Run SQL analytics and validation:
+
+`python src/run_sql.py`  
+`python src/verify_phase6.py`
+
+Run automated KPI reporting:
+
+`python src/phase7_kpi_engine.py`
+
+## Documentation
+
+Project documentation is available in the `docs/` directory, including the data dictionary, data model, business questions, metric definitions, data cleaning, data quality, and EDA documentation.
+
+## Future Enhancements
+
+- Automated data refresh and scheduled reporting
+- Deeper customer retention and CLV analysis
+- Cloud deployment
+- Expanded predictive analytics
+
+## Project Status
+
+**Completed** — An end-to-end 8-phase Business Intelligence and Analytics project built using the real Olist dataset.
+
+## Author
+
+**Himanshu**  
+Data Analytics | Business Intelligence | Python | SQL
+
+- **GitHub:** https://github.com/Himanshu-gudiyan
+- **Project Repository:** https://github.com/Himanshu-gudiyan/olist-ecommerce-business-intelligence
+- **LinkedIn:** https://www.linkedin.com/in/himanshu-gudiyan-aa10233a8/
+
+## License
+
+Portfolio and educational project .
+
+## Project Summary.
+
+Real-world Olist e-commerce data transformed into a complete analytics solution covering data cleaning, EDA, advanced customer and seller analytics, SQL data warehousing, KPI reporting, and an interactive Streamlit dashboard.
