@@ -4,10 +4,14 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Data%20Processing-013243.svg)](https://numpy.org/)
 [![SQL](https://img.shields.io/badge/SQL-Analytics-orange.svg)](https://www.sqlite.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-lightgrey.svg)](https://www.sqlite.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)](https://streamlit.io/)
-[![Scikit--learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E.svg)](https://scikit-learn.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75.svg)](https://plotly.com/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E.svg)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-F05032.svg)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)](https://github.com/)
 
 ---
@@ -40,90 +44,156 @@
 - [License](#license)
 
 ---
+
 ## About the Project
 
-**Olist E-Commerce Business Intelligence & Analytics** is an end-to-end data analytics project built on the **Brazilian E-Commerce Public Dataset by Olist**.
+**Olist E-Commerce Business Intelligence & Analytics** is an end-to-end
+Data Analytics and Business Intelligence project built using the
+**Brazilian E-Commerce Public Dataset by Olist**.
 
-The project analyzes real e-commerce data across orders, customers, products, sellers, payments, reviews, delivery, and geographic information.
+The project analyzes real marketplace data across orders, customers,
+products, sellers, payments, reviews, delivery, and geography.
 
-The workflow transforms raw marketplace data into cleaned datasets, analytical outputs, SQL-based business analysis, automated KPIs, and an interactive Streamlit dashboard.
+The workflow transforms raw transactional data into cleaned datasets,
+business analysis, advanced analytics, SQL analytics, automated KPIs,
+and an interactive Streamlit dashboard.
 
-The project demonstrates practical Data Analyst and Business Intelligence skills using Python, SQL, data visualization, statistical analysis, and dashboard development.
+The project demonstrates practical skills in:
+
+- Data Analysis
+- Business Intelligence
+- Python
+- SQL
+- Data Visualization
+- Customer Analytics
+- Business Reporting
+- Dashboard Development
 
 ---
 
 ## Business Problem
 
-E-commerce businesses generate data across multiple operational areas. Analyzing these datasets separately can make it difficult to understand overall business performance.
+E-commerce businesses generate data across multiple business functions.
 
-This project brings the major business data areas together to answer questions such as:
+Orders, customers, products, sellers, payments, reviews, delivery, and
+geographic datasets provide different views of marketplace activity.
 
-- How are orders and revenue performing?
-- Which product categories generate the most revenue?
-- How do customers behave and how often do they return?
-- Which sellers show different performance patterns?
-- How does delivery performance vary?
-- What do customer reviews indicate about satisfaction?
-- Which geographic regions contribute to marketplace activity?
-- Which KPIs should be monitored regularly?
+Analyzing these datasets separately can make it difficult to understand
+overall business performance.
 
-The objective is to convert raw transactional data into structured and actionable business intelligence.
+This project brings these areas together to analyze:
+
+- Revenue and order performance
+- Customer purchasing behavior
+- Product and category performance
+- Seller performance
+- Delivery operations
+- Customer reviews
+- Geographic activity
+- Business KPIs
+
+The objective is to convert transactional data into structured and
+business-focused insights.
 
 ---
 
 ## Key Objectives
 
-- Analyze real-world e-commerce transaction data
-- Perform systematic data quality checks
-- Clean and prepare datasets for analysis
-- Identify important business trends and patterns
-- Analyze customers, products, sellers, and operations
-- Build customer and seller intelligence
-- Create reusable SQL analytics
+- Analyze real-world e-commerce data
+- Audit source datasets
+- Identify data quality issues
+- Clean and prepare analytical data
+- Validate dataset relationships
+- Perform Exploratory Data Analysis
+- Analyze customers, products, and sellers
+- Analyze delivery and review performance
+- Build customer segmentation
+- Perform cohort and growth analysis
+- Build seller intelligence
+- Create SQL-based business analytics
 - Build an analytical SQLite database
-- Generate automated business KPIs and insights
+- Generate automated KPIs and insights
 - Develop an interactive Streamlit dashboard
-- Present findings through clear business visualizations
-
+- Present findings through business visualizations
 ---
+
 ## Business Questions
 
-The project focuses on practical business questions across sales, customers, products, sellers, operations, and geography.
+The project answers practical business questions across sales, customers,
+products, sellers, operations, reviews, and geography.
 
-1. What is the overall order and revenue performance?
-2. How does revenue change over time?
-3. Which product categories contribute the most revenue?
-4. What is the Average Order Value?
-5. How many customers make repeat purchases?
-6. What customer segments can be identified from purchase behavior?
-7. How does seller performance vary?
-8. How does delivery performance vary across orders and regions?
-9. Which payment methods are used by customers?
-10. How are customer review scores distributed?
-11. Which states contribute significantly to marketplace activity?
-12. Which KPIs and trends should be monitored regularly?
+### Sales and Revenue
+
+- What is the overall order and revenue performance?
+- How does revenue change over time?
+- What is the Average Order Value?
+- Which months show higher revenue activity?
+
+### Customers
+
+- How many customers placed orders?
+- How many customers made repeat purchases?
+- What customer segments can be identified?
+- How does customer retention vary across cohorts?
+
+### Products and Categories
+
+- Which categories generate the most revenue?
+- Which categories have the highest order activity?
+- Which products contribute significantly to sales?
+
+### Sellers
+
+- How does seller performance vary?
+- Which sellers generate high revenue?
+- Which sellers show delivery or satisfaction problems?
+
+### Operations
+
+- What is the average delivery time?
+- How many orders were delayed?
+- How does delivery performance vary by state?
+
+### Reviews and Geography
+
+- How are customer review scores distributed?
+- What patterns can be observed in customer satisfaction?
+- Which states contribute significantly to marketplace activity?
+
+### Reporting
+
+- Which KPIs should management monitor regularly?
+- Which business trends should be highlighted?
 
 ---
 
 ## Key Features
 
 ### Data Analytics
-- Dataset auditing and profiling
-- Data cleaning and preprocessing
-- Data quality validation
+
+- Dataset profiling
+- Data quality analysis
+- Missing-value analysis
+- Duplicate checks
+- Datatype validation
+- Relationship validation
+- Data cleaning
 - Exploratory Data Analysis
-- Business-focused visualizations
 
 ### Business Intelligence
-- Revenue and order analysis
-- Customer behavior analysis
+
+- Revenue analysis
+- Order analysis
+- Customer analysis
 - Product and category analysis
 - Seller performance analysis
-- Delivery performance analysis
+- Delivery analysis
 - Customer review analysis
+- Payment analysis
 - Geographic analysis
 
 ### Advanced Analytics
+
 - RFM customer segmentation
 - Repeat customer analysis
 - Cohort analysis
@@ -132,20 +202,37 @@ The project focuses on practical business questions across sales, customers, pro
 - Growth analytics
 - Business opportunity analysis
 
-### Data Engineering and SQL
+### SQL and Database
+
 - SQLite analytical database
 - Dimension and fact tables
-- 18 analytical SQL queries
 - Revenue reconciliation
 - Data integrity validation
+- 18 analytical SQL queries
 
-### Reporting and Dashboard
-- Automated KPI generation
+### Automated Reporting
+
+- Executive KPI summary
+- Monthly performance
+- Category performance
+- State performance
+- Payment analysis
 - Automated business insights
 - Markdown KPI report
+
+### Dashboard
+
 - Interactive Streamlit dashboard
-- Global dashboard filters
-- Dashboard screenshots for all major pages
+- Nine analytical pages
+- Global filters
+- KPI cards
+- Interactive charts
+- Analytical tables
+- Customer intelligence
+- Seller intelligence
+- Delivery analytics
+- Geographic analytics
+- Advanced analytics
 
 ---
 
@@ -166,371 +253,289 @@ The project focuses on practical business questions across sales, customers, pro
 | Dataset | Olist Brazilian E-Commerce Dataset |
 
 ---
-
 ## Project Workflow
 
-The project follows an eight-phase analytics workflow, from raw data inspection to an interactive Business Intelligence dashboard.
+The project follows an end-to-end Business Intelligence workflow from
+raw Olist data to an interactive analytical dashboard.
 
-### Phase 1 — Dataset Audit
+```text
+Real Olist Dataset
+        |
+        v
+Phase 1 - Dataset Audit
+        |
+        v
+Phase 2 - Data Cleaning and Preparation
+        |
+        v
+Phase 3 - Exploratory Data Analysis
+        |
+        v
+Phase 4 - Streamlit Dashboard
+        |
+        v
+Phase 5 - Advanced Analytics
+        |
+        v
+Phase 6 - SQL Analytics and Database
+        |
+        v
+Phase 7 - Automated KPI Reporting
+        |
+        v
+Phase 8 - Dashboard Integration
+        |
+        v
+Business Intelligence Dashboard
+## Exploratory Data Analysis
 
-- Inspected all Olist source datasets
-- Reviewed columns, data types, and row counts
-- Checked missing values and data quality
-- Studied relationships between datasets
-- Documented the initial data structure
+The Exploratory Data Analysis phase examines the major business dimensions
+of the Olist marketplace.
 
-### Phase 2 — Data Cleaning and Preparation
+### Sales and Revenue Analysis
 
-- Standardized datasets and column formats
-- Converted date fields to appropriate datatypes
-- Handled missing and inconsistent values
-- Checked duplicate records
-- Created cleaned and enriched datasets
-- Validated relationships between major tables
+- Order volume over time
+- Monthly revenue trends
+- Average Order Value
+- Revenue distribution
+- Delivered-order performance
 
-### Phase 3 — Exploratory Data Analysis
+### Customer Analysis
 
-Analyzed:
-
-- Orders and revenue
-- Monthly performance
-- Products and categories
-- Customer activity
-- Seller activity
-- Delivery performance
-- Customer reviews
-- Payment behavior
-- Geographic distribution
-
-### Phase 4 — Streamlit Dashboard
-
-Built an interactive dashboard with nine analysis pages:
-
-- Executive Overview
-- Sales & Revenue
-- Customer Analysis
-- Product & Categories
-- Seller Performance
-- Order & Delivery
-- Customer Reviews
-- Geographic Analysis
-- Advanced Analytics
-
-### Phase 5 — Advanced Analytics
-
-Implemented:
-
-- RFM customer segmentation
+- Customer order activity
+- Customer purchasing behavior
 - Repeat customer analysis
-- Cohort analysis
-- Customer retention analysis
-- Seller intelligence
-- Growth analytics
-- Business opportunity analysis
+- Customer distribution by state
 
-### Phase 6 — SQL Analytics and Database
+### Product and Category Analysis
 
-Created a SQLite analytical database containing source, dimension, and fact tables.
+- Category-level order activity
+- Category revenue contribution
+- Product-level sales analysis
+- Category performance trends
 
-Implemented **18 analytical SQL queries** covering revenue, customers, products, sellers, delivery, payments, geography, and quarterly performance.
+### Seller Analysis
 
-### Phase 7 — Automated KPI Reporting
+- Seller revenue performance
+- Seller order activity
+- Seller review performance
+- Seller delivery performance
 
-Built an automated reporting layer for:
+### Delivery Analysis
 
-- Executive KPIs
+- Average delivery time
+- Estimated versus actual delivery
+- Delayed-order analysis
+- Delivery performance by state
+
+### Review Analysis
+
+- Review-score distribution
+- Customer satisfaction patterns
+- Review-based business analysis
+
+### Geographic Analysis
+
+- Customer distribution by state
+- Seller distribution by state
+- Marketplace activity across geographic regions
+
+EDA outputs and visualizations are generated from the cleaned Olist data.
+
+---
+
+## Advanced Analytics
+
+The project extends traditional descriptive analytics with customer,
+seller, retention, and growth-focused analysis.
+
+### RFM Customer Segmentation
+
+Customers are analyzed using:
+
+- Recency
+- Frequency
+- Monetary value
+
+The resulting segments help understand differences in customer purchasing
+behavior.
+
+### Repeat Customer Analysis
+
+The project identifies customers with multiple delivered orders and
+calculates repeat-customer metrics.
+
+### Cohort Analysis
+
+Customers are grouped by their first purchase period to analyze purchasing
+behavior across subsequent periods.
+
+### Customer Retention
+
+Cohort-based analysis is used to study customer activity over time.
+
+### Seller Intelligence
+
+Seller-level analytics examine:
+
+- Revenue
+- Order volume
+- Review performance
+- Delivery performance
+- Seller-level business patterns
+
+### Growth Analytics
+
+Growth analysis examines:
+
+- Monthly order trends
+- Monthly revenue trends
+- Category performance
+- State-level performance
+- Business opportunities
+
+---
+
+## SQL Analytics and Database
+
+The project uses **SQLite** to create a structured analytical database.
+
+### Database Layers
+
+The database contains:
+
+- Source tables
+- Dimension tables
+- Fact tables
+
+### Important Tables
+
+```text
+Source / Clean Tables
+    |
+    +-- customers
+    +-- orders
+    +-- order_items
+    +-- order_payments
+    +-- order_reviews
+    +-- products
+    +-- sellers
+    +-- geolocation
+    +-- category_translation
+
+Dimension Tables
+    |
+    +-- dim_customer
+    +-- dim_product
+    +-- dim_seller
+    +-- dim_date
+    +-- dim_geography
+
+Fact Tables
+    |
+    +-- fact_orders
+    +-- fact_sales
+
+## Automated KPI Reporting
+
+The project includes an automated KPI and business reporting layer.
+
+### KPI Outputs
+
+The reporting pipeline generates:
+
+- Executive KPI summary
 - Monthly performance
 - Category performance
 - State performance
 - Payment analysis
 - Business insights
-- Markdown business reporting
-
-### Phase 8 — Dashboard Integration
-
-Integrated the analytical outputs into the Streamlit application with:
-
-- Business KPIs
-- Interactive filters
-- Charts and tables
-- Customer intelligence
-- Seller intelligence
-- Delivery analysis
-- Geographic analysis
-- Advanced analytics
-
----
-
-## Dataset
-
-This project uses the **Brazilian E-Commerce Public Dataset by Olist**, a real-world anonymized marketplace dataset containing approximately **100K orders** from Brazil.
-
-### Dataset Components
-
-The dataset includes:
-
-- Customers
-- Orders
-- Order items
-- Payments
-- Reviews
-- Products
-- Sellers
-- Geolocation
-- Product category translations
-
-### Source Files
-
-```text
-olist_customers_dataset.csv
-olist_geolocation_dataset.csv
-olist_order_items_dataset.csv
-olist_order_payments_dataset.csv
-olist_order_reviews_dataset.csv
-olist_orders_dataset.csv
-olist_products_dataset.csv
-olist_sellers_dataset.csv
-product_category_name_translation.csv
----
-## Data Cleaning and Validation
-
-The data preparation process keeps the original Olist data separate and creates cleaned datasets for analysis.
-
-### Cleaning Activities
-
-- Inspected dataset structure and datatypes
-- Standardized relevant columns
-- Converted date columns to datetime format
-- Analyzed missing values
-- Checked duplicate records
-- Validated relationships between datasets
-- Created cleaned datasets
-- Created enriched analytical datasets
-
-### Validation Checks
-
-The project validates:
-
-- Row counts
-- Primary-key uniqueness
-- Foreign-key relationships
-- Orphan records
-- Revenue reconciliation
-- Payment reconciliation
-- Customer analytics consistency
-- Delivery metrics
-- SQL query execution
-
-### Phase 6 Validation Result
-
-The analytical database validation completed with:
-
-**54 PASS | 0 FAIL**
-
-Core analytical facts were also reconciled successfully:
-
-```text
-fact_orders revenue = R$15,419,773.75
-fact_sales revenue  = R$15,419,773.75
-difference           = R$0.00
----
-## Advanced Analytics
-
-The project extends traditional EDA with customer, seller, retention, and growth analytics.
-
-### Customer Intelligence
-
-Implemented:
-
-- RFM customer segmentation
-- Recency analysis
-- Frequency analysis
-- Monetary analysis
-- Repeat customer analysis
-- Customer retention analysis
-- Cohort analysis
-
-The RFM analysis identifies customer groups based on purchasing behavior, including:
-
-- New Customers
-- Hibernating
-- Lost
-- Promising
-- Potential Loyalists
-- Need Attention
-- At Risk
-- Champions
-
-### Seller Intelligence
-
-Seller analytics evaluates different seller performance patterns using:
-
-- Revenue
-- Order activity
-- Customer satisfaction
-- Delivery performance
-- Seller-level business metrics
-
-Additional analytical groups include seller performance patterns such as high-revenue/low-satisfaction sellers, hidden opportunities, delivery problems, and under-performing sellers.
-
-### Growth Analytics
-
-Growth analysis covers:
-
-- Monthly revenue trends
-- Monthly order trends
-- Category performance
-- State-level performance
-- Growth opportunities
-- Business opportunity identification
-
-### Advanced Analytics Outputs
-
-Main Phase 5 analytical modules:
-
-```text
-src/
-├── rfm_analysis.py
-├── cohort_analysis.py
-├── seller_intelligence.py
-├── growth_analytics.py
-├── dashboard_utils.py
-└── pages/
-    └── advanced_analytics.py
-
----
-## Automated KPI Reporting
-
-Phase 7 adds an automated Business Intelligence reporting layer on top of the analytical database.
+- Markdown business report
 
 ### KPI Engine
 
-The KPI engine generates reusable business metrics for:
-
-- Executive performance
-- Monthly performance
-- Category performance
-- State performance
-- Payment analysis
-
-Main file:
+The KPI generation is handled through:
 
 ```text
 src/phase7_kpi_engine.py
----
 ## Dashboard Screenshots
 
-The following screenshots were captured from the working Streamlit dashboard using the actual Olist dataset.
+The following screenshots show the actual Streamlit dashboard and its
+analytical pages.
 
 ### Executive Overview
 
-Provides a high-level view of marketplace performance through KPIs, revenue trends, order activity, and operational metrics.
+![Executive Overview](screenshots/executive_overview_1.png)
 
-![Executive Overview](screenshots/executive_overview_1.png.png)
+![Executive Overview KPIs](screenshots/executive_overview_2.png)
 
-![Executive Overview - Analytics](screenshots/executive_overview_2.png.png)
-
-![Executive Overview - Details](screenshots/executive_overview_3.png.png)
-
----
+![Executive Overview Analysis](screenshots/executive_overview_3.png)
 
 ### Sales & Revenue
 
-Provides revenue trends, order performance, Average Order Value, and sales-related business analysis.
+![Sales and Revenue](screenshots/sales_revenue_1.png)
 
-![Sales & Revenue](screenshots/sales_revenue_1.png.png)
+![Sales and Revenue Analysis](screenshots/sales_revenue_2.png)
 
-![Sales & Revenue - Trends](screenshots/sales_revenue_2.png.png)
-
-![Sales & Revenue - Analysis](screenshots/sales_revenue_3.png.png)
-
----
+![Sales and Revenue Trends](screenshots/sales_revenue_3.png)
 
 ### Customer Analysis
 
-Analyzes customer activity, customer distribution, repeat purchasing behavior, and customer-level insights.
-
-![Customer Analysis](screenshots/customer_analysis_1.png.png)
-
----
+![Customer Analysis](screenshots/customer_analysis_1.png)
 
 ### Product & Categories
 
-Provides product and category-level analysis including order volume, item activity, and revenue contribution.
+![Product Categories](screenshots/product_categories_1.png)
 
-![Product & Categories](screenshots/product_categories_1.png.png)
-
-![Product & Categories - Analysis](screenshots/product_categories_2.png.png)
-
----
+![Product Category Analysis](screenshots/product_categories_2.png)
 
 ### Seller Performance
 
-Analyzes seller activity and performance using revenue, orders, customer satisfaction, and operational metrics.
+![Seller Performance](screenshots/seller_performance_1.png)
 
-![Seller Performance](screenshots/seller_performance_1.png.png)
+![Seller Performance Analysis](screenshots/seller_performance_2.png)
 
-![Seller Performance - Analysis](screenshots/seller_performance_2.png.png)
-
-![Seller Performance - Details](screenshots/seller_performance_3.png.png)
-
----
+![Seller Intelligence](screenshots/seller_performance_3.png)
 
 ### Order & Delivery
 
-Provides order-status analysis and delivery performance metrics.
+![Order and Delivery](screenshots/order_delivery_1.png)
 
-![Order & Delivery](screenshots/order_delivery_1.png.png)
+![Delivery Analysis](screenshots/order_delivery_2.png)
 
-![Order & Delivery - Performance](screenshots/order_delivery_2.png.png)
-
-![Order & Delivery - Analysis](screenshots/order_delivery_3.png.png)
-
----
+![Order Delivery Performance](screenshots/order_delivery_3.png)
 
 ### Customer Reviews
 
-Analyzes customer review scores and review-related marketplace patterns.
+![Customer Reviews](screenshots/customer_reviews_1.png)
 
-![Customer Reviews](screenshots/customer_reviews_1.png.png)
+![Review Analysis](screenshots/customer_reviews_2.png)
 
-![Customer Reviews - Distribution](screenshots/customer_reviews_2.png.png)
-
-![Customer Reviews - Analysis](screenshots/customer_reviews_3.png.png)
-
----
+![Review Distribution](screenshots/customer_reviews_3.png)
 
 ### Geographic Analysis
 
-Provides state-level and geographic analysis of marketplace activity.
+![Geographic Analysis](screenshots/geographic_analysis_1.png)
 
-![Geographic Analysis](screenshots/geographic_analysis_1.png.png)
-
-![Geographic Analysis - Distribution](screenshots/geographic_analysis_2.png.png)
-
----
+![Geographic Performance](screenshots/geographic_analysis_2.png)
 
 ### Advanced Analytics
 
-Combines customer intelligence, seller intelligence, growth analytics, and other advanced business analysis.
+![Advanced Analytics](screenshots/advanced_analytics_1.png)
 
-![Advanced Analytics](screenshots/advanced_analytics_1.png.png)
+![RFM Customer Segmentation](screenshots/advanced_analytics_2.png)
 
-![Advanced Analytics - Customer Intelligence](screenshots/advanced_analytics_2.png.png)
+![Cohort Analysis](screenshots/advanced_analytics_3.png)
 
-![Advanced Analytics - Seller Intelligence](screenshots/advanced_analytics_3.png.png)
+![Seller Intelligence](screenshots/advanced_analytics_4.png)
 
-![Advanced Analytics - Growth](screenshots/advanced_analytics_4.png.png)
+![Advanced Analytics Insights](screenshots/advanced_analytics_5.png)
 
-![Advanced Analytics - Insights](screenshots/advanced_analytics_5.png.png)
-
----
-
-> **Note:** All screenshots above were captured from the project dashboard using the real Olist dataset. No synthetic or mock business data was used.
 ---
 ## Verified Business Metrics
 
-The following metrics were validated against the analytical database and project validation checks.
+The following metrics were verified using the project's analytical
+database and validation workflow.
 
 | Metric | Verified Value |
 |---|---:|
@@ -541,50 +546,21 @@ The following metrics were validated against the analytical database and project
 | Average Delivery Time | 12.56 days |
 | Delayed Orders | 7,826 |
 | Delayed Order Rate | 8.11% |
-| Customers in Delivered-Order Analysis | 93,358 |
+| Customer Analytics Population | 93,358 |
 | Repeat Customers | 2,801 |
 | Repeat Customer Rate | 3.00% |
+| Sellers | 3,095 |
+| Products | 32,951 |
+| Order Items | 112,650 |
+| Reviews | 98,673 |
 | SQL Analytical Queries | 18 |
 | Database Tables | 17 |
-| Phase 6 Validation | 54 PASS / 0 FAIL |
+| Validation Checks Passed | 54 |
+| Validation Checks Failed | 0 |
 
-### Revenue Validation
-
-Revenue was reconciled between the two analytical fact tables:
-
-```text
-fact_orders = R$15,419,773.75
-fact_sales  = R$15,419,773.75
-Difference  = R$0.00
----
-## Installation
-
-Follow the steps below to run the project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Himanshu-gudiyan/olist-ecommerce-business-intelligence.git
-cd olist-ecommerce-business-intelligence
-
-## Documentation
-
-Project documentation is available in the `docs/` directory.
-
-| Document | Description |
-|---|---|
-| `data_dictionary.md` | Dataset columns and field descriptions |
-| `data_quality_report.md` | Data quality and validation findings |
-| `data_model.md` | Analytical data model and relationships |
-| `business_questions.md` | Business questions addressed by the project |
-| `metric_definitions.md` | Definitions of important business metrics |
-| `data_cleaning_report.md` | Data cleaning and preparation details |
-| `eda_report.md` | Exploratory Data Analysis findings |
-
-### Additional Resources
+### Revenue Reconciliation
 
 ```text
-notebooks/01_eda.ipynb
-sql/analytical_queries.sql
-outputs/eda_results.json
-outputs/phase7/
+fact_orders revenue = R$15,419,773.75
+fact_sales revenue  = R$15,419,773.75
+difference           = R$0.00
