@@ -288,6 +288,7 @@ Phase 8 - Dashboard Integration
         v
 Business Intelligence Dashboard
 ```
+
 ## Exploratory Data Analysis
 
 The Exploratory Data Analysis phase examines the major business dimensions
@@ -438,6 +439,7 @@ Fact Tables
     +-- fact_sales
 ```
 
+
 ## Automated KPI Reporting
 
 The project includes an automated KPI and business reporting layer.
@@ -461,6 +463,7 @@ The KPI generation is handled through:
 ```text
 src/phase7_kpi_engine.py
 ```
+
 ## Dashboard Screenshots
 
 The following screenshots show the actual Streamlit dashboard and its
