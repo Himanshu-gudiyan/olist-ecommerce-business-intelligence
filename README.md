@@ -1,4 +1,4 @@
-# Olist E-Commerce Business Intelligence & Analytics
+﻿# Olist E-Commerce Business Intelligence & Analytics
 
 > An end-to-end Business Intelligence and Data Analytics project built using real-world Brazilian e-commerce data from Olist.
 
@@ -287,6 +287,7 @@ Phase 8 - Dashboard Integration
         |
         v
 Business Intelligence Dashboard
+```
 ## Exploratory Data Analysis
 
 The Exploratory Data Analysis phase examines the major business dimensions
@@ -435,6 +436,7 @@ Fact Tables
     |
     +-- fact_orders
     +-- fact_sales
+```
 
 ## Automated KPI Reporting
 
@@ -458,6 +460,7 @@ The KPI generation is handled through:
 
 ```text
 src/phase7_kpi_engine.py
+```
 ## Dashboard Screenshots
 
 The following screenshots show the actual Streamlit dashboard and its
@@ -564,3 +567,6 @@ database and validation workflow.
 fact_orders revenue = R$15,419,773.75
 fact_sales revenue  = R$15,419,773.75
 difference           = R$0.00
+
+
+
